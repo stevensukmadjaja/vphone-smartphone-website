@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>V-Phone Products</title>
+    <link rel="stylesheet" href="product.css" />
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header class="modern-header">
+        <div class="logo">V-Phone</div>
+
+        <nav>
+            <a href="../home/index.html">Home</a>
+            <a href="../product/product.html" class="active">Product</a>
+            <a href="../promotions/promotions.html">Promotions</a>
+            <a href="../about/about.html">About Us</a>
+            <a href="../register/register.html">Register</a>
+        </nav>
+
+        <!-- Hamburger Menu Button -->
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <!-- Mobile Navigation Overlay -->
+    <div class="nav-mobile" id="navMobile">
+        <a href="../home/index.html">Home</a>
+        <a href="../product/product.html" class="active">Product</a>
+        <a href="../promotions/promotions.html">Promotions</a>
+        <a href="../about/about.html">About Us</a>
+        <a href="../register/register.html">Register</a>
+    </div>
+
+
+    <main class="main">
+        <section class="product-header">
+            <h1>Our Smartphones</h1>
+            <p>Choose the device that suits your needs best.</p>
+        </section>
+
+        <section class="filter-buttons">
+            <button class="filter-btn active" data-category="all">All</button>
+            <button class="filter-btn" data-category="gaming">Gaming</button>
+            <button class="filter-btn" data-category="camera">Camera</button>
+            <button class="filter-btn" data-category="budget">Budget</button>
+        </section>
+
+        <section class="product-grid horizontal-grid" id="productGrid">
+
+            <!-- GAMING -->
+            <div class="product-card" data-category="gaming">
+                <div class="product-image">
+                    <img src="../../photos/imagesproduct/gx1.png" alt="V-Phone GX1" />
+                </div>
+                <h2>V-Phone GX1</h2>
+                <p>$699</p>
+                <button class="buy-btn" data-id="gx1">Details</button>
+            </div>
+
+            <div class="product-card" data-category="gaming">
+                <div class="product-image">
+                    <img src="../../photos/imagesproduct/gx2.png" alt="V-Phone GX2" />
+                </div>
+                <h2>V-Phone GX2</h2>
+                <p>$799</p>
+                <button class="buy-btn" data-id="gx2">Details</button>
+
+            </div>
+
+            <!-- CAMERA -->
+            <div class="product-card" data-category="camera">
+                <div class="product-image">
+                    <img src="../../photos/imagesproduct/camone.png" alt="V-Phone CamOne" />
+                </div>
+                <h2>V-Phone CamOne</h2>
+                <p>$549</p>
+                <button class="buy-btn" data-id="camone">Details</button>
+
+            </div>
+
+            <div class="product-card" data-category="camera">
+                <div class="product-image">
+                    <img src="../../photos/imagesproduct/camx.png" alt="V-Phone CamX" />
+                </div>
+                <h2>V-Phone CamX</h2>
+                <p>$649</p>
+                <button class="buy-btn" data-id="camx">Details</button>
+            </div>
+
+            <!-- BUDGET -->
+            <div class="product-card" data-category="budget">
+                <div class="product-image">
+                    <img src="../../photos/imagesproduct/lite.png" alt="V-Phone Lite" />
+                </div>
+                <h2>V-Phone Lite</h2>
+                <p>$299</p>
+                <button class="buy-btn" data-id="lite">Details</button>
+            </div>
+
+            <div class="product-card" data-category="budget">
+                <div class="product-image">
+                    <img src="../../photos/imagesproduct/go.png" alt="V-Phone Go" />
+                </div>
+                <h2>V-Phone Go</h2>
+                <p>$249</p>
+                <button class="buy-btn" data-id="go">Details</button>
+            </div>
+
+            <!-- PRODUCT OVERLAY POPUP -->
+            <div id="overlay" class="overlay hidden">
+                <div class="overlay-content">
+                    <div class="overlay-image" id="overlayImage">(Gambar HP)</div>
+                    <div class="overlay-spec">
+                        <h2 id="overlayTitle">V-Phone X</h2>
+                        <ul id="overlaySpecs">
+                            <!-- Spesifikasi disini -->
+                        </ul>
+                        <a href="../register/register.html" class="overlay-buy-btn">Buy Now</a>
+                    </div>
+                    <button class="overlay-close" id="overlayClose">✕</button>
+                </div>
+            </div>
+
+
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <a href="../about/about.html" class="footer-link">V-Phone — Connecting Ur Future</a>
+    </footer>
+
+
+    <script src="product.js"></script>
+</body>
+
+</html>
