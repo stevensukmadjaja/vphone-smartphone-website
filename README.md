@@ -1,2 +1,5 @@
-# vphone-smartphone-website
-Responsive V-Phone smartphone showcase website built with HTML, CSS, JavaScript, and Figma for a Human–Computer Interaction project.
+**V-Phone Smartphone Website**
+
+This project focuses on creating a digital platform for V-Phone, a smartphone company that wants to present its products in a clear, attractive, and accessible way. Developed for the Human–Computer Interaction course at Bina Nusantara University, the website was built using HTML, CSS, JavaScript, and Figma, with features such as product filtering, interactive details, responsive navigation, an image slider, and form validation. Through this project, I learned how to transform a Figma design into a functional multi-page website while maintaining consistency in layout, colors, typography, and navigation. I also improved my JavaScript skills by implementing DOM manipulation, event listeners, sliders, page transitions, interactive overlays, and validation without regular expressions. The project helped me understand how responsive design can improve usability across desktop and mobile devices. Most importantly, I learned to consider the user’s perspective when designing website structures and interactions so the overall experience becomes clearer, easier, and more comfortable to use.
+
+This project was completed by Nickholas Steven Sukmadjaja from the Computer Science Department, Bina Nusantara University.
